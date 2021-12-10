@@ -1,22 +1,10 @@
-<?php 
+<?php
 
-require_once("vendor/autoload.php");
+require './lib/autoload.php';
 
-$app = new \Slim\Slim();
+    $smarty = new Template();
 
-$app->config('debug', true);
+    $smarty->display('index.tpl');
 
-$app->get('/', function() {
-	
-	$sql = new \Hcode\DB\Sql();
-
-	$results = $sql->select("SELECT * FROM tb_users");
-
-	echo json_encode($results);
-
-
-});
-
-$app->run();
-
+    
 ?>
