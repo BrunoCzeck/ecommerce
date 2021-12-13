@@ -3,9 +3,13 @@
 require './lib/autoload.php';
 
     $smarty = new Template();
-    Rotas::get_pagina();
-    $smarty->display('index.tpl');
+            
+
     $smarty->assign('GET_TEMA', Rotas::get_SiteTema());
-    echo Rotas::get_Carrinho();
+    $smarty->assign('GET_HOME', Rotas::get_SiteHome());
+    $smarty->assign('GET_CARRINHO', Rotas::get_Carrinho());
+    $smarty->assign('GET_CONTATO', Rotas::get_Contato());
+    
+    $smarty->display('index.tpl');
     
 ?>

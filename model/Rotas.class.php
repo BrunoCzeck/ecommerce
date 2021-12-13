@@ -17,9 +17,15 @@ class Rotas{
     static function get_SiteTema(){
         return self::get_SiteHome() . '/' . self::$pasta_view;
     }
+    
     static function get_Carrinho(){
         return self::get_SiteHome() . '/carrinho';
     }
+    
+    static function get_Contato(){
+        return self::get_SiteHome() . '/contato';
+    }
+
     
 
     static function get_pagina(){
