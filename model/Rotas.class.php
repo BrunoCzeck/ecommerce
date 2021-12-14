@@ -26,7 +26,9 @@ class Rotas{
         return self::get_SiteHome() . '/contato';
     }
 
-    
+    static function get_Produto(){
+        return self::get_SiteHome() . '/produto';
+    }
 
     static function get_pagina(){
         if(isset($_GET['pag'])){

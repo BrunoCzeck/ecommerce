@@ -9,7 +9,7 @@ class Config {
     
     
     // Info Banco 
-    const BD_HOST = "localhost:1111",
+    const BD_HOST = "localhost",
           BD_USER = "root",
           BD_SENHA = "",
           BD_BANCO = "ecommerce",

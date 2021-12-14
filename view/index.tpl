@@ -52,7 +52,7 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
                             <a href="{$GET_HOME}" class="nav-item nav-link active">Home</a>
-                            <a href="product-list.html" class="nav-item nav-link">Products</a>
+                            <a href="{$GET_PRODUTO}" class="nav-item nav-link">Products</a>
                             <a href="product-detail.html" class="nav-item nav-link">Product Detail</a>
                             <a href="{$GET_CARRINHO}" class="nav-item nav-link">Cart</a>
                             <a href="checkout.html" class="nav-item nav-link">Checkout</a>
