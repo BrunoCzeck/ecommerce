@@ -13,7 +13,7 @@ class Config {
           BD_USER = "root",
           BD_SENHA = "",
           BD_BANCO = "ecommerce";
-    
+          BD_PREFIX = "";
     
     // Info PHP Mailler
     
