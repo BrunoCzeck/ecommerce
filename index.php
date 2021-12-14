@@ -10,6 +10,8 @@ require './lib/autoload.php';
     $smarty->assign('GET_CARRINHO', Rotas::get_Carrinho());
     $smarty->assign('GET_CONTATO', Rotas::get_Contato());
     
+    $dados = new Conexao();
+
     $smarty->display('index.tpl');
     
 ?>

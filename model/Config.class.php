@@ -12,7 +12,7 @@ class Config {
     const BD_HOST = "localhost:1111",
           BD_USER = "root",
           BD_SENHA = "",
-          BD_BANCO = "ecommerce";
+          BD_BANCO = "ecommerce",
           BD_PREFIX = "";
     
     // Info PHP Mailler
