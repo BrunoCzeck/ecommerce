@@ -12,6 +12,15 @@ require './lib/autoload.php';
     $smarty->assign('GET_PRODUTO', Rotas::get_Produto());
     
     $dados = new Conexao();
+    $sql = 'SELECT * FROM categorias';
+    $dados->ExecuteSQL($sql);
+    $lista = $dados->ListarDados();
+
+    echo '<pre>';
+    //var_dump($lista);
+    echo '</pre>';
+
+
     //var_dump($dados);
 
     $smarty->display('index.tpl');

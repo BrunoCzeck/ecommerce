@@ -27,8 +27,21 @@ class Rotas{
     }
 
     static function get_Produto(){
-        return self::get_SiteHome() . '/produto';
+        return self::get_SiteHome() . '/produtos';
     }
+
+    static function get_ProdutosInfo(){
+        return self::get_SiteHome() . '/produtos_info';
+    }
+
+    static function get_ImgPasta(){
+        return 'view/img/';
+    }
+
+    static function get_ImgURL(){
+        return self::get_SiteHome() . '/' . self::get_ImgPasta();
+    }
+    
 
     static function get_pagina(){
         if(isset($_GET['pag'])){
