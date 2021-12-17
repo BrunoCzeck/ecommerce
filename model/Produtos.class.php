@@ -4,7 +4,8 @@ class Produtos extends Conexao{
 	function __construct(){
 		parent::__construct();
 	}
-			// Pega todos os produtos //
+//------------- Pega todos os produtos --------------------//
+	
 	function GetProdutos(){
 		// query p buscar produtos de uma categoria especifica. 
 
@@ -20,11 +21,9 @@ class Produtos extends Conexao{
 
 	}
    				
-   				// Pega o ID do produto // 
-
+//------------- Pega o ID do produto ------------------ // 
 	function GetProdutosID($id){
-		// query p buscar produtos de uma categoria especifica. 
-
+		
 		$sql = "SELECT * FROM {$this->prefixo}produtos p INNER JOIN {$this->prefixo}categorias c ON p.pro_categoria = c.cat_id";
 	
 		$sql .= " AND pro_id = {$id}";

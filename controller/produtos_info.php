@@ -8,7 +8,7 @@ $smarty->assign('PRO', $produtos->GetItens());
 
 $smarty->display('produtos_info.tpl');
 
-
+ 
 echo '<pre>';
 var_dump($produtos->GetItens());
 echo '</pre>'; 

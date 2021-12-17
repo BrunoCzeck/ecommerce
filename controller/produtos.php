@@ -1,4 +1,3 @@
-
 <?php 
 $smarty = new Template();
 
@@ -11,11 +10,9 @@ $smarty->assign('PRO_INFO', Rotas::get_ProdutosInfo());
 
 $smarty->display('produto.tpl');
 
-
 /* 
 echo '<pre>';
 var_dump($produtos->GetItens());
 echo '</pre>'; 
 */
-
 ?>
