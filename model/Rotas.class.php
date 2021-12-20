@@ -35,11 +35,16 @@ class Rotas{
     }
 
     static function get_ImgPasta(){
-        return 'view/img/';
+        return 'midia/img/';
     }
 
     static function get_ImgURL(){
         return self::get_SiteHome() . '/' . self::get_ImgPasta();
+    }
+
+    static function get_LinkImg($img){
+        $imagem = self::get_ImgURL() . "{$img}";
+        return $imagem;
     }
     
 

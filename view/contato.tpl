@@ -1,14 +1,15 @@
-<div class="col-lg-12">
+<div class="col-md-6">
                         <div class="contact-form">
                             <form>
-                                <div class="row">
-                                    <div class="col-md-6">
+                                <div class="col">
+                                    <div class="form-group">
                                         <input type="text" class="form-control" placeholder="Your Name" />
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="form-group">
                                         <input type="email" class="form-control" placeholder="Your Email" />
                                     </div>
                                 </div>
+                            <div class="col">
                                 <div class="form-group">
                                     <input type="text" class="form-control" placeholder="Subject" />
                                 </div>
@@ -18,3 +19,4 @@
                                 <div><button class="btn" type="submit">Send Message</button></div>
                             </form>
                         </div>
+                          </div>
