@@ -1,2 +1,2 @@
 # ecommerce
-POO
+POO - MVC
